@@ -1,0 +1,229 @@
+.header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo-header, .navigation-bar{
+	float: left;
+}
+
+.logo-header{
+	justify-content: left;
+}
+
+.button-menu{
+	display: none;
+}
+
+.help{
+	display: none;
+}
+
+nav{
+	display: flex;
+}
+
+ul{
+	text-align: center;
+}
+
+ul li{
+	display : inline-flex;
+}
+
+ul li a{
+	display: inline-block;
+}
+
+.dropdown{
+	position: relative;
+}
+
+.submenu{
+	display: none;
+    position: absolute;
+}
+
+.dropdown:hover .submenu {display: block;}
+
+.banner{
+	text-align: center;
+	background: url(image/Banner.svg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.intro-banner-wrapper{
+	width: 50%;
+}
+
+.rate-workers{
+	text-align: center;
+}
+
+.grid-84{
+	display: flex;
+}
+
+.grid-28{
+	width: 33%;
+	float: left;
+	box-sizing: border-box;
+}
+
+.reg-container{
+	display: flex;
+}
+
+.registration{
+	text-align: center;
+}
+
+.registration-form
+{
+	width: 100%;
+	text-align: left;
+	display: inline-flex;
+}
+
+.registration-form input{
+	justify-content: space-between;
+	width: 33%;
+}
+
+.sent-button{
+	text-align: right;
+}
+
+.comment-form{
+	text-align: center;
+}
+
+.comment-form input{
+	width: 98.5%;
+}
+
+.footer{
+	display: flex;
+}
+
+.contact-data-footer{
+	text-align: center;
+}
+
+@media screen and (max-width: 1920px){
+	.photo img{
+		width: 300px;
+		height: 375px;
+	}
+}
+
+@media screen and (max-width: 1437px){
+	ul li a.submenu-start{
+		display: none;
+	}
+
+	.help{
+		display : inline-flex;
+	}
+
+	.dropdown{
+		display: none;
+	}
+
+	.menu-wrapper{
+		display: inline-block;
+	}
+
+	.menu-wrapper:hover .menu {display: block; position: absolute;}
+
+	.button-menu{
+		display: block;
+	}
+
+	.menu{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1290px){
+	.photo img{
+		width: 200px;
+		height: 248px;
+	}
+}
+
+@media screen and (max-width: 1045px){
+	.grid-84{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.grid-28{
+		width: 600px
+	}	
+}
+
+@media screen and (max-width: 920px){
+	.logo-footer img{
+		width: 260px;
+		height: 80px;
+	}
+
+	.registration{
+		width: 70%;
+		height: 70%;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.grid-28{
+		width: 450px;
+	}
+}
+
+@media screen and (max-width: 700px){
+	.logo-header img{
+		width: 260px;
+		height: 80px;
+	}
+}
+
+@media screen and (max-width: 610px){
+	.grid-28{
+		width: 350px;
+	}
+}
+
+@media screen and (max-width: 560px){
+	.logo-footer img{
+		width: 160px;
+		height: 60px;
+	}
+
+	.contact-data-footer{
+		display: none;
+	}
+
+	.registration-form{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.registration-form input{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 430px){
+	.logo-header img{
+		width: 174px;
+		height: 54px;
+	}
+}
+
+@media screen and (max-width: 350px){
+	.grid-28{
+		width: 250px;
+	}
+}
