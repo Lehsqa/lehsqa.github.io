@@ -546,6 +546,9 @@ ul:last-child{
 }
 
 @media screen and (max-width: 470px){
+	.intro-banner-wrapper{
+		width: 75%
+	}
 	.logo-header img{
 		padding: 20px 0px 20px 15px;
 	}
