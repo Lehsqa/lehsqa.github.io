@@ -397,9 +397,6 @@ ul:last-child{
 }
 
 @media screen and (max-width: 1290px){
-	.intro-banner-wrapper{
-		width: 75%;
-	}
 	.photo img{
 		width: 200px;
 		height: 248px;
