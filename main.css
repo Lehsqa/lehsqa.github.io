@@ -1,0 +1,581 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: 'Montserrat';
+}
+
+a{
+	text-decoration: none;
+}
+
+.header{
+	background: #4869D6;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 0 0 15px 15px;
+	border-top: none;
+}
+
+.logo-header, .navigation-bar{
+	float: left;
+}
+
+.logo-header img{
+	padding: 40px 120px 40px 120px;
+}
+
+.logo-header{
+	justify-content: left;
+}
+
+.button-menu{
+	display: none;
+}
+
+.help{
+	display: none;
+}
+
+nav{
+	display: flex;
+	margin: auto;
+}
+
+ul{
+	text-align: center;
+}
+
+ul li{
+	display : inline-flex;
+	font-size: 36px;
+}
+
+ul li a{
+	display: inline-block;
+	border-left: 1px solid #C5D2FF;
+	padding: 18px 14px 18px 16px;
+	margin: 0;
+	color: #C5D2FF;
+}
+
+ul:last-child{
+	border-right: 1px solid #C5D2FF;
+}
+
+.dropdown{
+	position: relative;
+}
+
+.submenu{
+	display: none;
+    position: absolute;
+    background-color: #4869D6;
+    border-radius: 0 0 15px 15px;
+}
+
+.submenu a{
+	border-left: none;
+}
+
+.dropdown:hover .submenu {display: block; border-right: 0;}
+.dropdown:hover .submenu a {padding-right: 7px;}
+
+.banner{
+	text-align: center;
+	background: url(image/Banner.svg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	border-radius: 20px;
+	margin: 60px 0;
+}
+
+.intro-banner-wrapper{
+	width: 50%;
+	margin: auto;
+	padding-top: 50px;
+}
+
+.intro-banner{
+	padding: 25px 0px;
+	background-color: #866FD725;
+	border-radius: 60px;
+}
+
+.intro-banner h1{
+	font-size: 72px;
+	color: #FFFFFF;
+	font-weight: lighter;
+}
+
+.intro-banner p{
+	padding: 25px 25px;
+	color: #FFFFFF;
+}
+
+.button-banner{
+	margin-top: 50px;	
+}
+
+.button-banner a{
+	padding: 20px;
+	text-decoration: none;
+	background-color: #866FD790;
+	color: #FFFFFF;
+	border-radius: 60px;
+}
+
+.contact-data-banner{
+	padding : 70px 0;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.rate-workers{
+	text-align: center;
+	margin: 60px 0;
+}
+
+.intro-workers{
+	padding: 60px 0;
+	background: #4869D6;
+	border-radius: 15px;
+	color: #FFFFFF;
+
+}
+.intro-workers h1{
+	width: 50%;
+    margin: 0 auto;
+    font-size: 54px;
+    font-weight: lighter;
+}
+
+
+.grid-84{
+	display: flex;
+}
+
+.grid-28{
+	width: 33%;
+	float: left;
+	padding: 0px 120px;
+	box-sizing: border-box;
+}
+
+.card{
+	padding: 60px 0;
+}
+
+.card-1{
+	padding: 60px 0 0 0;
+}
+
+.card-header{
+	background: #6949D7;
+	padding: 40px 0;
+}
+
+#headingOne-1.card-header, #headingOne-2.card-header, #headingOne-3.card-header{
+	border-radius: 15px 15px 0 0;
+}
+
+.card-header-n{
+	background: #6949D7;
+	padding: 40px 0;
+	border-radius: 15px 15px 15px 15px;
+	font-size: 72px;
+	color: #FFFFFF;
+	font-weight: 400;
+}
+
+.card-body{
+	background: #C7B7FF;
+	padding: 190px 0;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.contact-data-worker{
+	background: #6949D7;
+	padding: 20px 0;
+	border-radius: 0 0 15px 15px;
+}
+
+.btnbtn-link, .btnbtn-linkcollapsed{
+	background-color: rgb(0,0,0,0);
+	border: none;
+	font-size: 64px;
+	color: #FFFFFF;
+}
+
+.boldz{
+	font-weight: 400;
+}
+
+.reg-container{
+	background: #4869D6;
+	display: flex;
+	margin: 60px 0;
+	border-radius: 15px;
+}
+
+.registration{
+	margin: auto;
+	padding: 60px 0;
+	text-align: center;
+}
+
+.intro-registration{
+	margin-bottom: 57px;
+}
+
+.intro-registration h1{
+	color: #FFFFFF;
+	font-size: 72px;
+	font-weight: 400;
+}
+
+.registration-form
+{
+	width: 100%;
+	text-align: left;
+	display: inline-flex;
+	margin: auto;
+}
+
+.registration-form input{
+	border: none;
+	justify-content: space-between;
+	padding: 24px 0px 24px 10px;
+	background-color: #FFFFFF75;
+	border-radius: 15px;
+	width: 33%;
+	font-size: 18px;
+}
+
+.input-1{
+	margin-right: 10px; 
+}
+
+.input-3{
+	margin-left: 10px;
+}
+
+.sent-button{
+	text-align: right;
+	margin-top: 34px;
+}
+
+.sent-button button{
+	border: none;
+	padding: 24px;
+	background-color: #6949D779;
+	border-radius: 15px;
+	color: #FFFFFF;
+	font-weight: lighter;
+	font-size: 18px;
+}
+
+.comment-form{
+	text-align: center;
+}
+
+.comment-form input{
+	border: none;
+	margin: 10px auto;
+	width: 98.5%;
+	padding: 48px 0px 48px 10px;
+	background-color: #FFFFFF75;
+	border-radius: 15px;
+	font-size: 18px;
+}
+
+.registration-form input{
+	border: none;
+}
+
+.footer{
+	background: #4869D6;
+	display: flex;
+	margin: auto;
+	border-radius: 15px 15px 0 0;
+}
+
+.logo-footer img{
+	padding: 40px 120px 40px 120px;
+}
+
+.logo-footer{
+	margin: auto;
+}
+
+.contact-data-footer{
+	text-align: center;
+	margin: auto 0;
+	color: #C5D2FF;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 1920px){
+	.photo img{
+		width: 300px;
+		height: 375px;
+	}
+}
+
+@media screen and (max-width: 1800px){
+	ul li{
+		font-size: 23.5px;
+	}
+
+	ul li a{
+		padding: 16px 14px 16px 16px;
+	}
+
+	.logo-header img{
+		padding: 40px 100px 40px 100px;
+	}
+
+	.card-header-n{
+		font-size: 48px;
+	}
+
+	.btnbtn-link, .btnbtn-linkcollapsed{
+		font-size: 48px;
+	}
+}
+
+@media screen and (max-width: 1630px){
+	.grid-28{
+		padding: 0 60px;
+	}
+}
+
+@media screen and (max-width: 1437px){
+	ul li{
+		font-size: 36px;
+	}
+
+	ul li a{
+		border-left: none;
+		border-right: none;
+	}
+
+	ul li a.submenu-start{
+		display: none;
+	}
+
+	.help{
+		display : inline-flex;
+	}
+
+	.dropdown{
+		display: none;
+	}
+
+	.menu-wrapper{
+		display: inline-block;
+	}
+
+	.menu-wrapper:hover .menu {display: block; position: absolute; background-color: #4869D6; border-radius: 0 0 15px 15px;}
+
+	.button-menu{
+		color: #C5D2FF;
+		display: block;
+		font-size: 32px;
+		border-bottom: 1px solid #C5D2FF;
+	}
+
+	.menu{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1290px){
+	.photo img{
+		width: 200px;
+		height: 248px;
+	}
+
+	.card-header-n{
+		font-size: 32px;
+	}
+
+	.btnbtn-link, .btnbtn-linkcollapsed{
+		font-size: 32px;
+	}
+}
+
+@media screen and (max-width: 1045px){
+	.logo-footer{
+		margin: 0;
+	}
+
+	.logo-footer img{
+		padding: 40px 60px;
+	}
+
+	.grid-84{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.grid-28{
+		padding: 0;
+		margin: 0 auto;
+		width: 600px;
+	}	
+}
+
+@media screen and (max-width: 1025px){
+	.logo-header img{
+		padding: 20px 60px 20px 60px;
+	}
+
+	.logo-footer img{
+		padding: 20px 60px 20px 60px;
+	}
+}
+
+@media screen and (max-width: 920px){
+	ul li{
+		font-size: 18.1px;
+	}
+
+	.logo-footer img{
+		width: 260px;
+		height: 80px;
+	}
+
+	.contact-data-footer{
+		font-size: 12px;
+	}
+
+	.registration-form input{
+		padding: 12px 0px 12px 10px;
+	}
+
+	.intro-banner h1{
+		font-size: 64px;
+	}
+
+	.registration{
+		width: 70%;
+		height: 70%;
+	}
+
+	.registration-form input{
+		font-size: 12px;
+	}
+
+	.comment-form input{
+		font-size: 12px;
+	}
+
+	.intro-registration h1{
+		font-size: 36px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.grid-28{
+		width: 450px;
+	}
+}
+
+@media screen and (max-width: 750px){
+	.intro-banner h1{
+		font-size: 48px;
+	}
+
+	.intro-banner p{
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 700px){
+	.logo-header img{
+		width: 260px;
+		height: 80px;
+	}
+}
+
+@media screen and (max-width: 610px){
+	.grid-28{
+		width: 350px;
+	}
+}
+
+@media screen and (max-width: 560px){
+	.logo-header img{
+		padding: 20px 0px 20px 30px;
+	}
+
+	.logo-footer img{
+		width: 160px;
+		height: 60px;
+	}
+
+	.intro-banner h1{
+		font-size: 32px;
+	}
+
+	.contact-data-footer{
+		display: none;
+	}
+
+	.intro-workers h1{
+		font-size: 36px;
+	}
+
+	.registration-form{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.registration-form input{
+		margin-left: 0;
+		margin-bottom: 15px;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 470px){
+	.logo-header img{
+		padding: 20px 0px 20px 15px;
+	}
+
+	ul li{
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 430px){
+	.logo-header img{
+		width: 174px;
+		height: 54px;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.intro-workers h1{
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width: 370px){
+	.intro-banner h1{
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width: 350px){
+	.grid-28{
+		width: 250px;
+	}
+}
